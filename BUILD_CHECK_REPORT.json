@@ -1,0 +1,12 @@
+{
+  "html_files": 16,
+  "missing_references": [],
+  "missing_count": 0,
+  "checks": [
+    "homepage BreadcrumbList removed",
+    "canonical tag present on each HTML page",
+    "all local CSS/JS/image/PDF references resolved",
+    "footer technical deployment text removed",
+    "WhatsApp CTA and catalog modal scripts included"
+  ]
+}
