@@ -107,6 +107,38 @@
     });
   });
 
+  const zoomTriggers = $$('.media-zoom');
+  if(zoomTriggers.length){
+    const lightbox = document.createElement('div');
+    lightbox.className = 'image-lightbox';
+    lightbox.setAttribute('aria-hidden', 'true');
+    lightbox.innerHTML = '<figure class="image-lightbox__figure"><img alt=""><button class="image-lightbox__close" type="button" aria-label="Close image">×</button></figure>';
+    document.body.appendChild(lightbox);
+    const lightboxImage = $('img', lightbox);
+    const lightboxClose = $('.image-lightbox__close', lightbox);
+    let lastTrigger = null;
+    const closeLightbox = ()=>{
+      lightbox.classList.remove('open');
+      lightbox.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('modal-open');
+      lastTrigger?.focus();
+    };
+    zoomTriggers.forEach(trigger=>trigger.addEventListener('click', ()=>{
+      const source = $('img', trigger);
+      if(!source) return;
+      lastTrigger = trigger;
+      lightboxImage.src = source.currentSrc || source.src;
+      lightboxImage.alt = source.alt;
+      lightbox.classList.add('open');
+      lightbox.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('modal-open');
+      lightboxClose.focus();
+    }));
+    lightboxClose.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', event=>{ if(event.target === lightbox) closeLightbox(); });
+    document.addEventListener('keydown', event=>{ if(event.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox(); });
+  }
+
   const productSpecs = $('.product-grid .spec-table');
   if (productSpecs && !$('.procurement-terms')) {
     productSpecs.insertAdjacentHTML('afterend', `
