@@ -109,3 +109,9 @@ html,body{max-width:100%;overflow-x:hidden}
   .image-lightbox{padding:10px}
   .image-lightbox__close{right:6px;top:6px}
 }
+.floating-whatsapp{padding:15px 22px}
+.floating-whatsapp:before{content:none}
+@media(max-width:620px){
+  .floating-whatsapp{padding:0}
+  .floating-whatsapp:before{content:'WA';left:50%;transform:translate(-50%,-50%)}
+}
