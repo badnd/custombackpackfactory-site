@@ -17,3 +17,56 @@ body{background:#f7f9fc}.site-header{box-shadow:0 12px 36px rgba(8,32,64,.06);bo
 .logo-sample-panel .sample-card{display:none}.logo-board img{display:none}.logo-board{background:linear-gradient(135deg,#ffffff,#f4f7fc);border:1px solid #dfe6f1}.mock-logo-zone{box-shadow:inset 0 0 0 1px rgba(11,78,162,.08)}.notice{background:#f7fbff;border-color:#d6e7ff;color:#35445f}.footer{background:#06172d}.footer-logo{width:126px}.subfooter{justify-content:flex-start}.subfooter span:nth-child(2){display:none}.floating-whatsapp{right:20px;bottom:20px;padding:15px 22px 15px 48px;background:linear-gradient(135deg,#22c55e,#16a34a);box-shadow:0 16px 38px rgba(34,197,94,.32);overflow:visible;animation:whatsappGlow 1.9s infinite}.floating-whatsapp:before{content:'☎';position:absolute;left:17px;top:50%;transform:translateY(-50%);font-size:21px}.floating-whatsapp:after{content:'';position:absolute;inset:-8px;border:2px solid rgba(34,197,94,.45);border-radius:999px;animation:whatsappPulse 1.9s infinite;z-index:-1}@keyframes whatsappPulse{0%{transform:scale(.86);opacity:.75}100%{transform:scale(1.25);opacity:0}}@keyframes whatsappGlow{0%,100%{filter:brightness(1)}50%{filter:brightness(1.08)}}
 .footer:before{content:'';display:block;height:0}.topbar .container{font-size:.86rem}.product-main-img .logo-location-pill.big{background:#082040}.product-main-img .your-logo-overlay.product{background:rgba(255,255,255,.96)}
 @media(max-width:920px){.brand-logo{width:108px}.brand-text{display:none}.badge-stack{grid-template-columns:1fr}.hero-visual .your-logo-overlay{margin:10px}.nav{gap:12px}.card-body{min-height:auto}.floating-whatsapp{right:12px;bottom:12px;padding:13px 18px 13px 42px}}
+
+/* Procurement-focused refinement */
+:root{--radius:8px;--shadow:0 14px 38px rgba(12,22,48,.09)}
+.btn,.eyebrow,.tag,.catalog-filter{border-radius:6px}
+.card,.feature,.method,.stat,.process li,.form-card,.notice,.logo-position-card{border-radius:8px}
+.hero-visual .frame,.split .panel,.product-main-img,.cta,.logo-board{border-radius:10px}
+.hero-visual .frame>img,.split .panel img,.product-main-img img,.gallery img,.factory-grid img{border-radius:6px}
+.hero h1,.section-head h2,.page-hero h1,.product-title,.big-title,.cta h2{letter-spacing:0}
+.hero h1{font-size:clamp(2.35rem,5vw,4.8rem);max-width:12ch}
+.stat b{font-size:1.25rem}
+.privacy-consent{display:flex;align-items:flex-start;gap:10px;margin:15px 0;color:var(--muted);font-size:.86rem;line-height:1.45}
+.privacy-consent input{width:17px;height:17px;margin-top:2px;flex:0 0 auto}
+.privacy-consent a,.form-status a{text-decoration:underline;color:var(--blue)}
+.form-honey{display:none!important}
+.form-status{margin-top:14px;border:1px solid #d7e0ed;background:#f7f9fc;color:#465268;border-radius:6px;padding:11px 13px;font-weight:700}
+.form-status.success{background:#ecfff8;border-color:#bcebdc;color:#087456}
+.form-status.error{background:#fff2f0;border-color:#f4c7c0;color:#9f2f24}
+.lead-form button:disabled{opacity:.68;cursor:wait;transform:none}
+.success-msg{display:none!important}
+body.modal-open{overflow:hidden}
+.floating-whatsapp:before{content:'WA'}
+@media(max-width:620px){
+  .hero h1{font-size:2.45rem}
+  .topbar{display:none}
+  .nav{min-height:68px}
+  .nav-actions .btn-primary{padding:11px 13px}
+  .page-hero{padding:40px 0}
+}
+.form-assurance{display:block;margin-top:10px;color:#53606b;font-size:.82rem;line-height:1.45}
+.procurement-terms{margin-top:32px;padding:26px 0;border-top:1px solid #dce2e6;border-bottom:1px solid #dce2e6}
+.procurement-terms h2{margin:0 0 18px;font-size:1.35rem;letter-spacing:0}
+.procurement-terms__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.procurement-terms__grid div{display:grid;gap:7px}
+.procurement-terms__grid strong{color:#19242d;font-size:.94rem}
+.procurement-terms__grid span{color:#5c6871;font-size:.88rem;line-height:1.55}
+@media(max-width:820px){.procurement-terms__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.procurement-terms__grid{grid-template-columns:1fr}}
+html,body{max-width:100%;overflow-x:hidden}
+.hero-grid>*{min-width:0}
+.nav-actions{margin-left:auto;flex-shrink:0}
+@media(max-width:700px){
+  .brand-text{display:none!important}
+  .brand-nameer{min-width:0;max-width:120px}
+  .brand-logo{width:88px}
+  .eyebrow{max-width:100%;white-space:normal;line-height:1.35}
+  .hero h1{font-size:2.65rem;line-height:1}
+}
+@media(max-width:620px){
+  .nav-actions .btn-primary{display:none}
+  .menu-btn{display:inline-flex}
+  .floating-whatsapp{width:54px;height:54px;padding:0;font-size:0}
+  .floating-whatsapp:before{left:50%;transform:translate(-50%,-50%)}
+}
