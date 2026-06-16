@@ -82,7 +82,7 @@
           body: new FormData(form)
         });
         const result = await response.json().catch(()=>({}));
-        if(!response.ok || result.success === false) throw new Error('Submission failed');
+        if(!response.ok || result.success !== 'true') throw new Error(result.message || 'Submission failed');
 
         status.className = 'form-status success';
         status.textContent = 'Thank you. Your request was sent successfully.';
