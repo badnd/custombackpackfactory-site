@@ -1,5 +1,159 @@
 window.CBF_PRODUCTS = [
   {
+    "slug": "yqjy2977-compact-business-backpack",
+    "title": "YQJY2977 Compact Business Backpack",
+    "kicker": "Compact 15.6-inch laptop backpack for business, commute and private label programs",
+    "category": "Business Backpack",
+    "hero": "yqjy2977",
+    "features": [
+      "Padded 15.6-inch laptop storage for daily work use",
+      "Front organization pocket and side mesh pockets",
+      "Luggage sleeve for business travel and airport buyers",
+      "Clean professional styling for corporate and retail programs",
+      "Print, patch, metal badge and private-label logo options"
+    ],
+    "specs": {
+      "Model": "YQJY2977",
+      "Size": "30 x 19 x 41 cm / custom size available",
+      "Material": "Oxford fabric / custom fabric available",
+      "Weight": "Approx. 0.60 kg",
+      "Colors": "Blue / black / gray / custom color available",
+      "Logo": "Print / patch / metal badge / private label"
+    },
+    "gallery_prefix": "yqjy2977",
+    "hero_img": "assets/img/products/yqjy2977/yqjy2977-01.jpg",
+    "gallery": [
+      "assets/img/products/yqjy2977/yqjy2977-01.jpg",
+      "assets/img/products/yqjy2977/yqjy2977-02.jpg",
+      "assets/img/products/yqjy2977/yqjy2977-03.jpg",
+      "assets/img/products/yqjy2977/yqjy2977-04.jpg"
+    ]
+  },
+  {
+    "slug": "yqjy2989-travel-ready-business-backpack",
+    "title": "YQJY2989 Travel-ready Business Backpack",
+    "kicker": "Multi-pocket business backpack for commuting, airport travel and corporate buyers",
+    "category": "Business Backpack",
+    "hero": "yqjy2989",
+    "features": [
+      "Multi-compartment layout for work and travel",
+      "Luggage pass-through for airport use",
+      "Organizer pockets and side bottle pockets",
+      "Durable polyester / Oxford-style woven fabric",
+      "Print, patch, private label and custom branding support"
+    ],
+    "specs": {
+      "Model": "YQJY2989",
+      "Size": "46 x 32 x 20 cm / custom size available",
+      "Material": "Polyester / Oxford-style woven fabric",
+      "Weight": "Approx. 0.62 kg",
+      "Colors": "Black / gray / blue / custom color available",
+      "Logo": "Print / patch / private label / custom branding"
+    },
+    "gallery_prefix": "yqjy2989",
+    "hero_img": "assets/img/products/yqjy2989/yqjy2989-01.jpg",
+    "gallery": [
+      "assets/img/products/yqjy2989/yqjy2989-01.jpg",
+      "assets/img/products/yqjy2989/yqjy2989-02.jpg",
+      "assets/img/products/yqjy2989/yqjy2989-03.jpg",
+      "assets/img/products/yqjy2989/yqjy2989-04.jpg",
+      "assets/img/products/yqjy2989/yqjy2989-05.jpg"
+    ]
+  },
+  {
+    "slug": "yqjy616-17-inch-business-travel-backpack",
+    "title": "YQJY616 17-inch Business Travel Backpack",
+    "kicker": "Large-capacity 17-inch laptop backpack for OEM/ODM business travel orders",
+    "category": "Business Backpack",
+    "hero": "yqjy616",
+    "features": [
+      "Fits up to 17-inch laptop",
+      "Large-capacity storage for business travel",
+      "Luggage strap and side bottle pocket",
+      "Comfortable padded carry structure",
+      "Custom logo, custom color and custom packaging available"
+    ],
+    "specs": {
+      "Model": "YQJY616",
+      "Size": "46 x 32 x 18 cm / custom size available",
+      "Material": "Oxford fabric / custom fabric available",
+      "Weight": "Approx. 0.69 kg",
+      "Colors": "Black / navy blue / gray / custom color available",
+      "Logo": "Custom logo / custom color / custom packaging available"
+    },
+    "gallery_prefix": "yqjy616",
+    "hero_img": "assets/img/products/yqjy616/yqjy616-01.jpg",
+    "gallery": [
+      "assets/img/products/yqjy616/yqjy616-01.jpg",
+      "assets/img/products/yqjy616/yqjy616-02.jpg",
+      "assets/img/products/yqjy616/yqjy616-03.jpg",
+      "assets/img/products/yqjy616/yqjy616-04.jpg",
+      "assets/img/products/yqjy616/yqjy616-05.jpg"
+    ]
+  },
+  {
+    "slug": "yqjy2286-business-laptop-travel-backpack",
+    "title": "YQJY2286 Business Laptop Travel Backpack",
+    "kicker": "Professional Oxford laptop backpack for business, travel and everyday custom programs",
+    "category": "Laptop Backpack",
+    "hero": "yqjy2286",
+    "features": [
+      "Padded laptop compartment for business use",
+      "Large multi-pocket capacity",
+      "Luggage strap for travel buyers",
+      "Side mesh pocket and durable Oxford fabric",
+      "Screen print, embroidery, patch and private-label support"
+    ],
+    "specs": {
+      "Model": "YQJY2286",
+      "Size": "32 x 52 x 18 cm / custom size available",
+      "Material": "Oxford fabric / custom fabric available",
+      "Weight": "Approx. 0.83 kg",
+      "Colors": "Navy blue / gray / black / custom color available",
+      "Logo": "Screen print / embroidery / patch / private label"
+    },
+    "gallery_prefix": "yqjy2286",
+    "hero_img": "assets/img/products/yqjy2286/yqjy2286-01.jpg",
+    "gallery": [
+      "assets/img/products/yqjy2286/yqjy2286-01.jpg",
+      "assets/img/products/yqjy2286/yqjy2286-02.jpg",
+      "assets/img/products/yqjy2286/yqjy2286-03.jpg",
+      "assets/img/products/yqjy2286/yqjy2286-04.jpg",
+      "assets/img/products/yqjy2286/yqjy2286-05.jpg"
+    ]
+  },
+  {
+    "slug": "yqjy0014-custom-all-over-print-backpack",
+    "title": "YQJY0014 Custom All-Over Print Backpack",
+    "kicker": "Lightweight casual backpack for full-print school, retail and promotional programs",
+    "category": "Custom Backpack",
+    "hero": "yqjy0014",
+    "features": [
+      "Full-print logo and pattern customization available",
+      "Front pocket, side bottle pocket and laptop compartment",
+      "Breathable shoulder straps and ergonomic back panel",
+      "Large main compartment for daily essentials",
+      "Ideal for schools, promotions, travel and retail programs"
+    ],
+    "specs": {
+      "Model": "YQJY0014",
+      "Size": "30 x 45 x 15 cm",
+      "Material": "Nylon",
+      "Weight": "Approx. 0.44 kg",
+      "Use": "School, commuting, travel, retail and promotional programs",
+      "Customization": "Full-print pattern, logo, private label"
+    },
+    "gallery_prefix": "yqjy0014",
+    "hero_img": "assets/img/products/yqjy0014/yqjy0014-01.png",
+    "gallery": [
+      "assets/img/products/yqjy0014/yqjy0014-01.png",
+      "assets/img/products/yqjy0014/yqjy0014-02.png",
+      "assets/img/products/yqjy0014/yqjy0014-03.png",
+      "assets/img/products/yqjy0014/yqjy0014-04.png",
+      "assets/img/products/yqjy0014/yqjy0014-05.png"
+    ]
+  },
+  {
     "slug": "custom-laptop-backpack",
     "title": "Custom Laptop Backpack",
     "kicker": "OEM/ODM laptop backpack for work, commute and travel programs",
