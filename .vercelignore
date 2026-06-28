@@ -1,0 +1,6 @@
+*.zip
+.tools
+.agents
+tools
+node_modules
+.next

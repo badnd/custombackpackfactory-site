@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://www.custombackpackfactory.com/sitemap.xml
