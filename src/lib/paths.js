@@ -1,5 +1,5 @@
 export const siteUrl = 'https://www.custombackpackfactory.com';
-const defaultAssetBaseUrl = '';
+const defaultAssetBaseUrl = 'https://images.custombackpackfactory.com';
 export const assetBaseUrl = (process.env.NEXT_PUBLIC_ASSET_BASE_URL ?? defaultAssetBaseUrl).replace(/\/+$/, '');
 
 export function assetPath(src) {
