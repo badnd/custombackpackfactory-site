@@ -15,46 +15,36 @@ export const siteData = {
   "heroSlides": [
     {
       "title": "Custom Backpack Factory for Global B2B Buyers",
-      "subtitle": "OEM/ODM | Private Label | Custom Logo",
-      "text": "Custom Backpack Factory helps importers, wholesalers, promotional agencies and brand owners develop business backpacks, laptop backpacks, school backpacks and outdoor bags.",
-      "image": "/assets/images/products/premium-backpack/product-premium-backpack-navy-front-900.jpg",
+      "subtitle": "Factory Sewing | OEM/ODM | Private Label",
+      "text": "Professional workshop photography shows real backpack production, machine operation and finished bag handling for B2B custom backpack programs.",
+      "image": "/assets/images/factory/factory-changfeng-machine-1600.jpg",
       "duration": 3500,
       "cta": "Browse Products",
       "link": "/products"
     },
     {
-      "title": "Backpack Catalog Pages Built for Inquiries",
-      "subtitle": "Product Details | Color Options | Logo Zones",
-      "text": "Each product page shows clear model images, usage scenes, material details, logo placement and buyer-friendly RFQ buttons.",
-      "image": "/assets/images/factory/factory-changfeng-machine-1600.jpg",
+      "title": "Pattern Tables for Custom Backpack Development",
+      "subtitle": "R&D | Pattern Making | Sampling Support",
+      "text": "Our pattern table workflow helps buyers turn backpack structure, pocket layout, fabric choices and logo positions into practical production details.",
+      "image": "https://images.custombackpackfactory.com/assets/images/shared/factory-pattern-table-1600.jpg",
       "duration": 3500,
       "cta": "View Custom Service",
       "link": "/custom-service"
     },
     {
-      "title": "Factory Direct Custom Logo Support",
-      "subtitle": "Screen Print | Patch | Embroidery | Badge",
-      "text": "Send your logo, quantity, target market and packing requirements. We help match practical materials, logo methods and production planning.",
-      "image": "/assets/images/products/premium-backpack/product-premium-backpack-sage-front-900.jpg",
+      "title": "Paper Pattern Development for Private Label Backpacks",
+      "subtitle": "Custom Structure | Fit Checks | Production Planning",
+      "text": "Paper pattern development gives every custom backpack project a clearer foundation before materials, sampling and bulk production begin.",
+      "image": "https://images.custombackpackfactory.com/assets/images/shared/factory-pattern-development-1600.jpg",
       "duration": 3500,
       "cta": "Contact Factory",
       "link": "/contact"
     },
     {
-      "title": "Finished Business Backpack Presentation",
-      "subtitle": "Materials | Structure | Buyer-Ready Details",
-      "text": "Premium product videos and close product photography help B2B buyers understand silhouette, construction and perceived retail value quickly.",
-      "image": "/assets/images/products/premium-backpack/product-premium-backpack-navy-front-900.jpg",
-      "video": "/assets/videos/products/product-business-backpack-13s.mp4",
-      "duration": 3500,
-      "cta": "Browse Products",
-      "link": "/products"
-    },
-    {
-      "title": "Pattern Development for Custom Backpack Programs",
-      "subtitle": "R&D | Sampling | Production Planning",
-      "text": "Pattern tables and factory workflow support practical changes in logo placement, pocket structure, materials and packing details.",
-      "image": "https://images.custombackpackfactory.com/assets/images/shared/factory-pattern-table-1600.jpg",
+      "title": "Trusted Backpack Factory with Export Experience",
+      "subtitle": "Honor Wall | Quality Systems | Buyer Confidence",
+      "text": "Factory qualifications, awards and long-term production routines help buyers evaluate the manufacturing partner behind each custom backpack order.",
+      "image": "https://images.custombackpackfactory.com/assets/images/shared/trust-honor-wall-trophies-1200.jpg",
       "duration": 3500,
       "cta": "Explore Factory",
       "link": "/factory"
