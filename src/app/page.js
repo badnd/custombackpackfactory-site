@@ -7,6 +7,9 @@ import { JsonLd } from '@/components/JsonLd';
 import { HeroCarousel } from '@/components/HeroCarousel';
 import { assetPath } from '@/lib/paths';
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 export default function HomePage() {
   const featured = siteData.homeFeaturedProducts.map((slug) => [slug, siteData.products[slug]]).filter(([, product]) => product);
   const faqSchema = {
