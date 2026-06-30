@@ -40,7 +40,7 @@ export function productSchema(data, slug, product) {
     name: product.title,
     image: product.gallery.map((image) => assetUrl(image)),
     description: product.intro,
-    brand: { '@type': 'Brand', name: 'Nameer' },
+    brand: { '@type': 'Brand', name: 'Custom Backpack Factory' },
     sku: product.model,
     manufacturer: { '@type': 'Organization', name: data.company.name },
     offers: {
@@ -66,7 +66,7 @@ export function organizationSchema(data) {
     name: data.company.name,
     email: data.company.email,
     url: `${siteUrl}/`,
-    logo: assetUrl('/assets/img/brand/nameer-logo-transparent.png'),
+    logo: assetUrl('/assets/img/brand/custombackpackfactory-logo.svg'),
     contactPoint: [
       {
         '@type': 'ContactPoint',

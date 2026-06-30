@@ -39,10 +39,15 @@ button,input,textarea,select{font:inherit}
 .nav-wrap{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:20px}
 .brand{display:flex;align-items:center;gap:14px;min-width:0}
 .brand-logo{display:block;width:172px;height:48px;object-fit:contain;object-position:left center}
-.logo-mark{display:block;width:172px;height:48px;flex:0 0 172px;background:url('/assets/img/brand/nameer-logo-transparent.webp') left center/contain no-repeat}
+.brand-text-logo{gap:10px;min-width:220px;color:#111827}
+.brand-icon{display:grid;place-items:center;width:44px;height:44px;border-radius:12px;background:#1f2937;color:#fff;font-size:.78rem;font-weight:900;letter-spacing:.04em;box-shadow:0 8px 18px rgba(31,41,55,.18)}
+.brand-wordmark{font-size:1.05rem;font-weight:900;line-height:1.1;color:#111827;max-width:180px}
+.logo-mark{display:block;width:172px;height:48px;flex:0 0 172px;background:url('/assets/img/brand/custombackpackfactory-logo.svg') left center/contain no-repeat}
 .logo-mark img{display:none!important}
 .brand>.logo-mark+div{display:none}
 .footer-logo-panel{display:inline-flex;align-items:center;background:#fff;border-radius:14px;padding:10px 14px}
+.footer-text-logo{gap:10px}
+.footer-text-logo .brand-wordmark{color:#111827}
 .footer-logo{width:190px;height:49px}
 .footer-brand{align-items:flex-start;flex-direction:column;gap:10px}
 .footer-brand small{color:#bed0f5}

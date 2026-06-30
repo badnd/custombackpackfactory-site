@@ -2,7 +2,6 @@ export const siteData = {
   "company": {
     "name": "Tianjin Junyi Premium Trading Co.,Ltd.",
     "shortName": "Custom Backpack Factory",
-    "brandName": "Nameer",
     "tagline": "OEM/ODM Custom Backpack Manufacturer",
     "email": "annawei@nameerbag.com",
     "whatsapp": "008615102249548",
@@ -17,7 +16,7 @@ export const siteData = {
     {
       "title": "Custom Backpack Factory for Global B2B Buyers",
       "subtitle": "OEM/ODM | Private Label | Custom Logo",
-      "text": "Custom Backpack Factory by Nameer helps importers, wholesalers, promotional agencies and brand owners develop business backpacks, laptop backpacks, school backpacks and outdoor bags.",
+      "text": "Custom Backpack Factory helps importers, wholesalers, promotional agencies and brand owners develop business backpacks, laptop backpacks, school backpacks and outdoor bags.",
       "image": "/assets/images/factory/factory-changfeng-machine-1600.jpg",
       "video": "/assets/videos/products/product-business-backpack-13s.mp4",
       "cta": "Browse Products",

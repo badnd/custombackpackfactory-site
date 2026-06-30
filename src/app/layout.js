@@ -9,13 +9,13 @@ import { assetPath, organizationSchema } from '@/lib/paths';
 export const metadata = {
   metadataBase: new URL('https://www.custombackpackfactory.com'),
   title: {
-    default: 'Custom Backpack Factory by Nameer | OEM/ODM Backpack Manufacturer',
+    default: 'Custom Backpack Factory | OEM/ODM Backpack Manufacturer',
     template: '%s | Custom Backpack Factory'
   },
   description: 'Tianjin Junyi Premium Trading Co.,Ltd. supplies OEM/ODM custom backpacks for B2B buyers, including custom backpacks, laptop backpacks, school backpacks and outdoor bags.',
   openGraph: {
     type: 'website',
-    siteName: 'Custom Backpack Factory by Nameer',
+    siteName: 'Custom Backpack Factory',
     images: [assetPath('/assets/img/products/custom-laptop-backpack-oem-logo-solutions.webp')]
   },
   twitter: {
