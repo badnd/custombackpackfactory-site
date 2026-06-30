@@ -49,7 +49,7 @@ export function HeroCarousel({ slides }) {
                 className={`${mediaClassName} hero-bg-mobile-poster`}
                 src={assetPath(slide.image)}
                 alt=""
-                loading={index === 0 ? 'eager' : 'lazy'}
+                loading="eager"
                 decoding="async"
               />
               <video
@@ -68,7 +68,7 @@ export function HeroCarousel({ slides }) {
               className={mediaClassName}
               src={assetPath(slide.image)}
               alt=""
-              loading={index === 0 ? 'eager' : 'lazy'}
+              loading="eager"
               decoding="async"
               key={`${slide.title}-image`}
             />
