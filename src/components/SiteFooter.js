@@ -7,7 +7,7 @@ export function SiteFooter() {
 
   return (
     <>
-      <footer className="footer">
+      <footer id="site-footer" className="footer">
         <div className="container footer-grid">
           <div>
             <div className="brand footer-brand">
