@@ -26,7 +26,7 @@ export const siteData = {
       "title": "Pattern Tables for Custom Backpack Development",
       "subtitle": "R&D | Pattern Making | Sampling Support",
       "text": "Our pattern table workflow helps buyers turn backpack structure, pocket layout, fabric choices and logo positions into practical production details.",
-      "image": "https://images.custombackpackfactory.com/assets/images/shared/factory-pattern-table-1600.jpg",
+      "image": "/assets/images/shared/factory-pattern-table-1600.jpg",
       "duration": 3500,
       "cta": "View Custom Service",
       "link": "/custom-service"
@@ -35,7 +35,7 @@ export const siteData = {
       "title": "Paper Pattern Development for Private Label Backpacks",
       "subtitle": "Custom Structure | Fit Checks | Production Planning",
       "text": "Paper pattern development gives every custom backpack project a clearer foundation before materials, sampling and bulk production begin.",
-      "image": "https://images.custombackpackfactory.com/assets/images/shared/factory-pattern-development-1600.jpg",
+      "image": "/assets/images/shared/factory-pattern-development-1600.jpg",
       "duration": 3500,
       "cta": "Contact Factory",
       "link": "/contact"
@@ -44,7 +44,7 @@ export const siteData = {
       "title": "Trusted Backpack Factory with Export Experience",
       "subtitle": "Honor Wall | Quality Systems | Buyer Confidence",
       "text": "Factory qualifications, awards and long-term production routines help buyers evaluate the manufacturing partner behind each custom backpack order.",
-      "image": "https://images.custombackpackfactory.com/assets/images/shared/trust-honor-wall-trophies-1200.jpg",
+      "image": "/assets/images/shared/trust-honor-wall-trophies-1200.jpg",
       "duration": 3500,
       "cta": "Explore Factory",
       "link": "/factory"
