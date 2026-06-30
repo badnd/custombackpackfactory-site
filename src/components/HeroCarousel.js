@@ -17,15 +17,25 @@ function normalizeSlideHref(href) {
 export function HeroCarousel({ slides }) {
   const validSlides = useMemo(() => slides.filter(Boolean), [slides]);
   const [active, setActive] = useState(0);
+  const [forcedIndex, setForcedIndex] = useState(null);
   const current = validSlides[active] || validSlides[0];
 
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const requestedSlide = Number(params.get('heroSlide'));
+    if (!Number.isInteger(requestedSlide) || requestedSlide < 0 || requestedSlide >= validSlides.length) return;
+    setForcedIndex(requestedSlide);
+    setActive(requestedSlide);
+  }, [validSlides.length]);
+
+  useEffect(() => {
+    if (forcedIndex !== null) return undefined;
     if (validSlides.length < 2) return undefined;
     const timer = window.setInterval(() => {
       setActive((index) => (index + 1) % validSlides.length);
     }, current?.duration || 3500);
     return () => window.clearInterval(timer);
-  }, [current?.duration, validSlides.length]);
+  }, [current?.duration, forcedIndex, validSlides.length]);
 
   if (!current) return null;
 
