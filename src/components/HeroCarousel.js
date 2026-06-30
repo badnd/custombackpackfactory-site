@@ -17,7 +17,8 @@ function normalizeSlideHref(href) {
 export function HeroCarousel({ slides }) {
   const validSlides = useMemo(() => slides.filter(Boolean), [slides]);
   const [active, setActive] = useState(0);
-  const current = validSlides[active] || validSlides[0];
+  const [copyActive, setCopyActive] = useState(0);
+  const current = validSlides[copyActive] || validSlides[active] || validSlides[0];
 
   useEffect(() => {
     if (validSlides.length < 2) return undefined;
@@ -26,6 +27,14 @@ export function HeroCarousel({ slides }) {
     }, current?.duration || 3500);
     return () => window.clearInterval(timer);
   }, [current?.duration, validSlides.length]);
+
+  useEffect(() => {
+    if (active === copyActive) return undefined;
+    const timer = window.setTimeout(() => {
+      setCopyActive(active);
+    }, 1200);
+    return () => window.clearTimeout(timer);
+  }, [active, copyActive]);
 
   if (!current) return null;
 
