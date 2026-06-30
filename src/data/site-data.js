@@ -17,8 +17,8 @@ export const siteData = {
       "title": "Custom Backpack Factory for Global B2B Buyers",
       "subtitle": "OEM/ODM | Private Label | Custom Logo",
       "text": "Custom Backpack Factory helps importers, wholesalers, promotional agencies and brand owners develop business backpacks, laptop backpacks, school backpacks and outdoor bags.",
-      "image": "/assets/images/factory/factory-changfeng-machine-1600.jpg",
-      "video": "/assets/videos/products/product-business-backpack-13s.mp4",
+      "image": "/assets/images/products/premium-backpack/product-premium-backpack-navy-front-900.jpg",
+      "duration": 3500,
       "cta": "Browse Products",
       "link": "/products"
     },
@@ -26,7 +26,8 @@ export const siteData = {
       "title": "Backpack Catalog Pages Built for Inquiries",
       "subtitle": "Product Details | Color Options | Logo Zones",
       "text": "Each product page shows clear model images, usage scenes, material details, logo placement and buyer-friendly RFQ buttons.",
-      "image": "/assets/img/products/business-travel-backpack-catalog-page.webp",
+      "image": "/assets/images/factory/factory-changfeng-machine-1600.jpg",
+      "duration": 3500,
       "cta": "View Custom Service",
       "link": "/custom-service"
     },
@@ -34,9 +35,29 @@ export const siteData = {
       "title": "Factory Direct Custom Logo Support",
       "subtitle": "Screen Print | Patch | Embroidery | Badge",
       "text": "Send your logo, quantity, target market and packing requirements. We help match practical materials, logo methods and production planning.",
-      "image": "/assets/img/media/custom-logo-options.webp",
+      "image": "/assets/images/products/premium-backpack/product-premium-backpack-sage-front-900.jpg",
+      "duration": 3500,
       "cta": "Contact Factory",
       "link": "/contact"
+    },
+    {
+      "title": "Finished Business Backpack Presentation",
+      "subtitle": "Materials | Structure | Buyer-Ready Details",
+      "text": "Premium product videos and close product photography help B2B buyers understand silhouette, construction and perceived retail value quickly.",
+      "image": "/assets/images/products/premium-backpack/product-premium-backpack-navy-front-900.jpg",
+      "video": "/assets/videos/products/product-business-backpack-13s.mp4",
+      "duration": 3500,
+      "cta": "Browse Products",
+      "link": "/products"
+    },
+    {
+      "title": "Pattern Development for Custom Backpack Programs",
+      "subtitle": "R&D | Sampling | Production Planning",
+      "text": "Pattern tables and factory workflow support practical changes in logo placement, pocket structure, materials and packing details.",
+      "image": "https://images.custombackpackfactory.com/assets/images/shared/factory-pattern-table-1600.jpg",
+      "duration": 3500,
+      "cta": "Explore Factory",
+      "link": "/factory"
     }
   ],
   "categories": [

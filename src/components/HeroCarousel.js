@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { Fragment, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { assetPath } from '@/lib/paths';
 
@@ -23,9 +23,9 @@ export function HeroCarousel({ slides }) {
     if (validSlides.length < 2) return undefined;
     const timer = window.setInterval(() => {
       setActive((index) => (index + 1) % validSlides.length);
-    }, 5200);
+    }, current?.duration || 3500);
     return () => window.clearInterval(timer);
-  }, [validSlides.length]);
+  }, [current?.duration, validSlides.length]);
 
   if (!current) return null;
 
@@ -39,19 +39,42 @@ export function HeroCarousel({ slides }) {
 
   return (
     <section className="hero">
-      {current.video ? (
-        <video
-          className="hero-bg-video"
-          src={assetPath(current.video)}
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
-          poster={assetPath(current.image)}
-          aria-hidden="true"
-        />
-      ) : null}
+      <div className="hero-bg-montage" aria-hidden="true">
+        {validSlides.map((slide, index) => {
+          const isActive = index === active;
+          const mediaClassName = `hero-bg-slide ${isActive ? 'active' : ''}`;
+          return slide.video ? (
+            <Fragment key={`${slide.title}-video`}>
+              <img
+                className={`${mediaClassName} hero-bg-mobile-poster`}
+                src={assetPath(slide.image)}
+                alt=""
+                loading={index === 0 ? 'eager' : 'lazy'}
+                decoding="async"
+              />
+              <video
+                className={`${mediaClassName} hero-bg-video`}
+                src={assetPath(slide.video)}
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload={isActive ? 'auto' : 'metadata'}
+                poster={assetPath(slide.image)}
+              />
+            </Fragment>
+          ) : (
+            <img
+              className={mediaClassName}
+              src={assetPath(slide.image)}
+              alt=""
+              loading={index === 0 ? 'eager' : 'lazy'}
+              decoding="async"
+              key={`${slide.title}-image`}
+            />
+          );
+        })}
+      </div>
       <div className="hero-scrim" />
       <div className="container hero-grid">
         <div className="hero-copy">
@@ -69,28 +92,6 @@ export function HeroCarousel({ slides }) {
           </div>
         </div>
         <div className="hero-media">
-          <div className="frame hero-carousel-frame">
-            {current.video ? (
-              <video
-                src={assetPath(current.video)}
-                poster={assetPath(current.image)}
-                autoPlay
-                muted
-                loop
-                playsInline
-                preload="metadata"
-                aria-label={current.title}
-              />
-            ) : (
-              <img src={assetPath(current.image)} alt={current.title} />
-            )}
-            {validSlides.length > 1 ? (
-              <>
-                <button className="hero-arrow hero-prev" type="button" aria-label="Previous slide" onClick={() => goTo(active - 1)}>&lt;</button>
-                <button className="hero-arrow hero-next" type="button" aria-label="Next slide" onClick={() => goTo(active + 1)}>&gt;</button>
-              </>
-            ) : null}
-          </div>
           {validSlides.length > 1 ? (
             <div className="hero-dots" aria-label="Hero slides">
               {validSlides.map((slide, index) => (
