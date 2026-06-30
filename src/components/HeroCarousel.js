@@ -39,6 +39,20 @@ export function HeroCarousel({ slides }) {
 
   return (
     <section className="hero">
+      {current.video ? (
+        <video
+          className="hero-bg-video"
+          src={assetPath(current.video)}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster={assetPath(current.image)}
+          aria-hidden="true"
+        />
+      ) : null}
+      <div className="hero-scrim" />
       <div className="container hero-grid">
         <div className="hero-copy">
           <span className="badge">{current.subtitle}</span>
@@ -56,7 +70,20 @@ export function HeroCarousel({ slides }) {
         </div>
         <div className="hero-media">
           <div className="frame hero-carousel-frame">
-            <img src={assetPath(current.image)} alt={current.title} />
+            {current.video ? (
+              <video
+                src={assetPath(current.video)}
+                poster={assetPath(current.image)}
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                aria-label={current.title}
+              />
+            ) : (
+              <img src={assetPath(current.image)} alt={current.title} />
+            )}
             {validSlides.length > 1 ? (
               <>
                 <button className="hero-arrow hero-prev" type="button" aria-label="Previous slide" onClick={() => goTo(active - 1)}>&lt;</button>

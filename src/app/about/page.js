@@ -40,6 +40,27 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      <section className="section bg-soft">
+        <div className="container">
+          <div className="section-head">
+            <div>
+              <span className="badge">Certifications & Honors</span>
+              <h2>ISO-certified backpack manufacturing background</h2>
+              <p>Our factory, Tianjin Junyi Premium Trading Co., Ltd., is ISO 9001 certified and has been recognized at trade exhibitions for backpack manufacturing excellence.</p>
+            </div>
+          </div>
+          <div className="trust-showcase">
+            <figure className="media-panel trust-figure">
+              <img src={assetPath('/assets/images/trust/trust-certifications-iso-bsci-1600.jpg')} alt="ISO 9001, BSCI, SGS and RoHS certification materials for custom backpack manufacturing" />
+              <figcaption>Quality management and compliance references for custom backpack orders.</figcaption>
+            </figure>
+            <figure className="media-panel trust-figure">
+              <img src={assetPath('/assets/images/trust/trust-honor-wall-trophies-1200.jpg')} alt="Honor wall and trade exhibition trophies for custom backpack manufacturing" />
+              <figcaption>Trade exhibition honors and factory recognition from our backpack manufacturing team.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

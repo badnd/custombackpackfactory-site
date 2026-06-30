@@ -51,7 +51,7 @@ export default function HomePage() {
           <div className="section-head"><div><span className="badge">Why Choose Us</span><h2>Designed for wholesale buyers and private label projects</h2></div></div>
           <div className="grid grid-4">
             {[
-              ['01', 'Full-Print Bag Programs', 'Crossbody bags, waist bags, sling bags and backpacks are grouped clearly for OEM/ODM custom projects.'],
+              ['01', 'Backpack OEM Programs', 'Business backpacks, laptop backpacks, school bags and outdoor styles are grouped clearly for OEM/ODM custom projects.'],
               ['02', 'Low MOQ Options', 'MOQ can be discussed around 300 / 500 / 1000 pcs depending on style, material and logo details.'],
               ['03', 'Fast Sampling', 'Sample development usually takes 7-15 days after artwork and material details are confirmed.'],
               ['04', 'Reliable Production', 'Bulk production usually takes 15-30 days after sample approval, subject to actual order schedule.']
@@ -59,6 +59,7 @@ export default function HomePage() {
               <article className="card info-card" key={title}><div className="card-body"><div className="icon-bubble">{num}</div><h3 className="card-title">{title}</h3><p className="muted">{text}</p></div></article>
             ))}
           </div>
+          <p className="price-guidance">Reference MOQ price ranges: business backpacks from about USD 6.80-18.50, laptop backpacks from about USD 7.50-21.00, and outdoor or specialty backpacks from about USD 8.80-26.00 depending on material, padding, logo method and order quantity.</p>
           <div className="trust-showcase">
             <div className="media-panel"><img src={assetPath('/assets/img/media/factory-capability-overview.webp')} alt="Custom Backpack Factory trade show and buyer service" /></div>
             <div className="media-panel"><img src={assetPath('/assets/img/media/why-choose-us.webp')} alt="buyer reviews for custom backpacks" /></div>

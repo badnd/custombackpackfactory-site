@@ -8,6 +8,12 @@ export const metadata = {
 };
 
 export default function FactoryPage() {
+  const productionVideos = [
+    ['Business Backpack Showcase', '/assets/videos/products/product-business-backpack-13s.mp4', 'Live product handling shows structure, profile and business backpack details for OEM programs.'],
+    ['Specialty Bag Showcase', '/assets/videos/products/product-cpr-bag-showcase-24s.mp4', 'Specialty custom projects demonstrate our ability to support demanding product requirements.'],
+    ['Specialty Capability', '/assets/videos/factory/factory-cpr-medical-bag-26s.mp4', 'We also support specialty projects beyond standard backpacks, including precision-built equipment cases for healthcare and technical industries.']
+  ];
+
   return (
     <>
       <section className="section bg-soft">
@@ -34,6 +40,25 @@ export default function FactoryPage() {
           <div className="section-head"><div><span className="badge">Quality Points</span><h2>What we confirm before shipment</h2></div></div>
           <div className="grid grid-4">
             {['Material and color', 'Logo placement', 'Stitching and zipper', 'Packing and labels'].map((item) => <article className="card info-card" key={item}><div className="card-body"><h3>{item}</h3><p className="muted">Checked according to order details and approved sample direction.</p></div></article>)}
+          </div>
+        </div>
+      </section>
+      <section className="section bg-soft">
+        <div className="container">
+          <div className="section-head">
+            <div>
+              <span className="badge">Live Production</span>
+              <h2>Backpack and specialty custom production</h2>
+              <p>These videos show real backpack handling and specialty manufacturing capability, helping buyers understand what we can support beyond standard catalog styles.</p>
+            </div>
+          </div>
+          <div className="video-grid">
+            {productionVideos.map(([title, src, text]) => (
+              <article className="video-card" key={title}>
+                <video src={assetPath(src)} controls preload="metadata" playsInline />
+                <div><h3>{title}</h3><p className="muted">{text}</p></div>
+              </article>
+            ))}
           </div>
         </div>
       </section>

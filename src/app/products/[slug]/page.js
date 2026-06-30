@@ -105,6 +105,38 @@ export default async function ProductPage({ params }) {
         </div>
       </section>
 
+      {product.categorySlug === 'business-backpack' ? (
+        <section className="section bg-soft">
+          <div className="container">
+            <div className="section-head">
+              <div>
+                <span className="badge">Business Backpack Cases</span>
+                <h2>Premium backpack photos and customer examples</h2>
+                <p>Use these real photos as references for structure, fabric color, logo placement and business backpack customization.</p>
+              </div>
+            </div>
+            <div className="grid grid-3">
+              {[
+                ['/assets/images/products/premium-backpack/product-premium-backpack-navy-front-900.jpg', 'Premium navy business backpack front view with clean logo-ready panel', 'Navy Front View'],
+                ['/assets/images/products/premium-backpack/product-premium-backpack-sage-front-900.jpg', 'Premium sage green business backpack front view for private label reference', 'Sage Front View'],
+                ['/assets/images/cases/case-howo-business-backpack-900.jpg', 'Custom business backpack case for HOWO truck brand project', 'Business Backpack Case'],
+                ['/assets/images/cases/case-bwc-business-bag-900.jpg', 'Custom business carry bag with bold front-panel logo print for BWC Contracting', 'Business Carry Case']
+              ].map(([src, alt, title]) => (
+                <article className="card variant-card" key={src}>
+                  <div className="variant-media">
+                    <img src={assetPath(src)} alt={alt} />
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title">{title}</h3>
+                    <p className="muted">Reference for B2B backpack customization, logo positioning and quotation discussion.</p>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       <section className="section bg-soft">
         <div className="container">
           <div className="section-head">

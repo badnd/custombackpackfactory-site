@@ -18,7 +18,8 @@ export const siteData = {
       "title": "Custom Backpack Factory for Global B2B Buyers",
       "subtitle": "OEM/ODM | Private Label | Custom Logo",
       "text": "Custom Backpack Factory by Nameer helps importers, wholesalers, promotional agencies and brand owners develop business backpacks, laptop backpacks, school backpacks and outdoor bags.",
-      "image": "/assets/img/products/custom-laptop-backpack-oem-logo-solutions.webp",
+      "image": "/assets/images/factory/factory-changfeng-machine-1600.jpg",
+      "video": "/assets/videos/products/product-business-backpack-13s.mp4",
       "cta": "Browse Products",
       "link": "/products"
     },
