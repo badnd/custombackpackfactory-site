@@ -22,11 +22,12 @@ export function HeroCarousel({ slides }) {
 
   useEffect(() => {
     if (validSlides.length < 2) return undefined;
-    const timer = window.setInterval(() => {
+    const activeSlide = validSlides[active] || validSlides[0];
+    const timer = window.setTimeout(() => {
       setActive((index) => (index + 1) % validSlides.length);
-    }, current?.duration || 3500);
-    return () => window.clearInterval(timer);
-  }, [current?.duration, validSlides.length]);
+    }, activeSlide?.duration || 4000);
+    return () => window.clearTimeout(timer);
+  }, [active, validSlides]);
 
   useEffect(() => {
     if (active === copyActive) return undefined;
@@ -68,7 +69,7 @@ export function HeroCarousel({ slides }) {
                 muted
                 loop
                 playsInline
-                preload={isActive ? 'auto' : 'metadata'}
+                preload="metadata"
                 poster={assetPath(slide.image)}
               />
             </Fragment>

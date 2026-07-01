@@ -15,10 +15,30 @@ export const siteData = {
   "heroSlides": [
     {
       "title": "Custom Backpack Factory for Global B2B Buyers",
-      "subtitle": "Factory Sewing | OEM/ODM | Private Label",
-      "text": "Professional workshop photography shows real backpack production, machine operation and finished bag handling for B2B custom backpack programs.",
+      "subtitle": "Workshop Overview | OEM/ODM | Factory Direct",
+      "text": "Multi-station workshop footage opens with real production scale, sewing lines and factory capacity for custom backpack programs.",
       "image": "/assets/images/factory/factory-changfeng-machine-1600.jpg",
-      "duration": 3500,
+      "video": "/assets/videos/factory/factory-overview-multistation-21s.mp4",
+      "duration": 21000,
+      "cta": "Browse Products",
+      "link": "/products"
+    },
+    {
+      "title": "Sewing Details for Private Label Backpacks",
+      "subtitle": "Factory Sewing | Craft Detail | Production Proof",
+      "text": "Close-up sewing footage shows the hands-on workmanship behind durable business backpacks, laptop backpacks and custom bags.",
+      "image": "/assets/images/factory/factory-changfeng-machine-1600.jpg",
+      "video": "/assets/videos/factory/factory-sewing-closeup-13s.mp4",
+      "duration": 13000,
+      "cta": "View Custom Service",
+      "link": "/custom-service"
+    },
+    {
+      "title": "Backpack Sewing Machine Operation in Our Workshop",
+      "subtitle": "Production Line | Finished Bag Handling | B2B Orders",
+      "text": "Workshop photography shows real machine operation and finished backpack handling for practical OEM/ODM backpack development.",
+      "image": "/assets/images/factory/factory-changfeng-machine-1600.jpg",
+      "duration": 4000,
       "cta": "Browse Products",
       "link": "/products"
     },
@@ -27,25 +47,16 @@ export const siteData = {
       "subtitle": "R&D | Pattern Making | Sampling Support",
       "text": "Our pattern table workflow helps buyers turn backpack structure, pocket layout, fabric choices and logo positions into practical production details.",
       "image": "/assets/images/shared/factory-pattern-table-1600.jpg",
-      "duration": 3500,
+      "duration": 4000,
       "cta": "View Custom Service",
       "link": "/custom-service"
-    },
-    {
-      "title": "Paper Pattern Development for Private Label Backpacks",
-      "subtitle": "Custom Structure | Fit Checks | Production Planning",
-      "text": "Paper pattern development gives every custom backpack project a clearer foundation before materials, sampling and bulk production begin.",
-      "image": "/assets/images/shared/factory-pattern-development-1600.jpg",
-      "duration": 3500,
-      "cta": "Contact Factory",
-      "link": "/contact"
     },
     {
       "title": "Trusted Backpack Factory with Export Experience",
       "subtitle": "Honor Wall | Quality Systems | Buyer Confidence",
       "text": "Factory qualifications, awards and long-term production routines help buyers evaluate the manufacturing partner behind each custom backpack order.",
       "image": "/assets/images/shared/trust-honor-wall-trophies-1200.jpg",
-      "duration": 3500,
+      "duration": 4000,
       "cta": "Explore Factory",
       "link": "/factory"
     }
