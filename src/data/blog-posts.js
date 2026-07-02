@@ -1,5 +1,118 @@
 export const blogPosts = [
   {
+    "slug": "how-custom-backpacks-are-made",
+    "title": "How Custom Backpacks Are Made: A Step-by-Step Factory Guide",
+    "description": "A step-by-step walkthrough of custom backpack manufacturing, from design consultation and material selection through sampling, bulk production, quality control, and shipping.",
+    "category": "Factory Guide",
+    "date": "2026-07-02",
+    "hero": "/assets/images/factory/factory-changfeng-machine-1600.jpg",
+    "sections": [
+      [
+        "Step 1: Design consultation and project brief",
+        "Custom backpack production starts with the buyer's target use case, reference photos, logo files, quantity, market and expected price range. A clear brief helps the factory judge whether the project should use an existing structure or a fully custom development route."
+      ],
+      [
+        "Step 2: Material and component selection",
+        "The factory reviews shell fabric, lining, zipper, buckle, webbing, padding, laptop compartment material and logo method. Material choices affect hand feel, durability, MOQ, sample timing and final unit cost."
+      ],
+      [
+        "Step 3: Pattern making and sample development",
+        "For custom structures, pattern makers translate sketches and measurements into production patterns. The sample confirms capacity, pocket layout, strap comfort, logo placement, stitching and overall appearance before bulk production."
+      ],
+      [
+        "Step 4: Cutting, sewing and logo application",
+        "After the sample is approved, fabric is cut by panel, logo work is prepared, and sewing lines assemble the backpack body, pockets, straps, handles and lining. Production teams check consistency against the approved sample."
+      ],
+      [
+        "Step 5: Quality control, packing and shipping",
+        "Finished backpacks are checked for stitching, zippers, logo position, size, stains, thread ends and packing requirements. Approved goods are packed by carton and prepared for shipping according to the buyer's delivery plan."
+      ],
+      [
+        "FAQ: How long does it take to go from design to finished sample?",
+        "Sample development typically takes 7 to 15 days, depending on how complex the design is and how many materials and components need to be sourced."
+      ],
+      [
+        "FAQ: What's the minimum order quantity for a custom backpack?",
+        "MOQs generally range from 50 to 500 units depending on the specific design and level of customization involved."
+      ],
+      [
+        "FAQ: Do I need a finished tech pack to start?",
+        "No. While a tech pack speeds up the process, an experienced factory can work from sketches, reference images, or even an existing sample to develop production-ready specifications."
+      ],
+      [
+        "FAQ: How many rounds of sample revisions are normal?",
+        "One to two rounds is typical. More complex or highly technical designs may require additional revisions before the sample is fully approved for bulk production."
+      ]
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "How Custom Backpacks Are Made: A Step-by-Step Factory Guide",
+        "description": "A step-by-step walkthrough of custom backpack manufacturing, from design consultation and material selection through sampling, bulk production, quality control, and shipping.",
+        "url": "https://www.custombackpackfactory.com/blog/how-custom-backpacks-are-made",
+        "image": "https://images.custombackpackfactory.com/assets/images/factory/factory-changfeng-machine-1600.jpg",
+        "datePublished": "2026-07-02",
+        "dateModified": "2026-07-02",
+        "author": {
+          "@type": "Organization",
+          "name": "Custom Backpack Factory",
+          "url": "https://www.custombackpackfactory.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Custom Backpack Factory",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://images.custombackpackfactory.com/assets/img/brand/custombackpackfactory-logo.svg"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.custombackpackfactory.com/blog/how-custom-backpacks-are-made"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How long does it take to go from design to finished sample?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sample development typically takes 7 to 15 days, depending on how complex the design is and how many materials and components need to be sourced."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the minimum order quantity for a custom backpack?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "MOQs generally range from 50 to 500 units depending on the specific design and level of customization involved."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need a finished tech pack to start?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. While a tech pack speeds up the process, an experienced factory can work from sketches, reference images, or even an existing sample to develop production-ready specifications."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many rounds of sample revisions are normal?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "One to two rounds is typical. More complex or highly technical designs may require additional revisions before the sample is fully approved for bulk production."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "custom-backpack-manufacturer-china",
     "title": "How to Choose a Custom Backpack Manufacturer in China",
     "description": "A practical sourcing guide for importers comparing OEM/ODM backpack suppliers, logo methods, MOQ and production communication.",

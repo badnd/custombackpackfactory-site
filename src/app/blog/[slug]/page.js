@@ -50,9 +50,11 @@ export default async function BlogPostPage({ params }) {
     mainEntityOfPage: `${siteUrl}/blog/${post.slug}`
   };
 
+  const schemas = post.schemas ?? [articleSchema];
+
   return (
     <>
-      <JsonLd data={articleSchema} />
+      {schemas.map((schema, index) => <JsonLd key={`${schema['@type']}-${index}`} data={schema} />)}
       <article className="section article-page">
         <div className="container article-container">
           <Link className="badge" href="/blog">Buying Guide</Link>
