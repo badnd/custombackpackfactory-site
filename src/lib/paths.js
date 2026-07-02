@@ -46,7 +46,8 @@ export function productSchema(data, slug, product) {
     offers: {
       '@type': 'AggregateOffer',
       priceCurrency: 'USD',
-      lowPrice: '0',
+      lowPrice: '1.00',
+      highPrice: '99.00',
       offerCount: '1',
       availability: 'https://schema.org/InStock',
       seller: { '@type': 'Organization', name: data.company.name }
