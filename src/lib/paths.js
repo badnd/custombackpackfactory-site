@@ -44,12 +44,12 @@ export function productSchema(data, slug, product) {
     sku: product.model,
     manufacturer: { '@type': 'Organization', name: data.company.name },
     offers: {
-      '@type': 'AggregateOffer',
-      priceCurrency: 'USD',
-      lowPrice: '1.00',
-      highPrice: '99.00',
-      offerCount: '1',
+      '@type': 'Offer',
       availability: 'https://schema.org/InStock',
+      url: `${siteUrl}${productPath(slug)}`,
+      priceCurrency: 'USD',
+      price: '0.00',
+      description: 'Custom quotation upon request. MOQ 50-500 units depending on product.',
       seller: { '@type': 'Organization', name: data.company.name }
     },
     additionalProperty: product.specs.map(([name, value]) => ({
