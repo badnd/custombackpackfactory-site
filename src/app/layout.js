@@ -27,7 +27,10 @@ export const metadata = {
     apple: assetPath('/favicon.svg')
   },
   verification: {
-    google: 'IjmZEiftgnyfAb1Mfe5tGCwXfz75BPdq3Y0IkPR8AWg'
+    google: 'IjmZEiftgnyfAb1Mfe5tGCwXfz75BPdq3Y0IkPR8AWg',
+    other: {
+      'msvalidate.01': 'AD12B57AA450C181C4A8D6F90403CA06'
+    }
   }
 };
 
